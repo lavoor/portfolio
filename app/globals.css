@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+body {
+  background: #161720;
+  font-family: "Satoshi", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.futura{
+  font-family: 'Futura PT', sans-serif;
+}
+.satoshi{
+  font-family: 'Satoshi', sans-serif;
+}
+
+.animation-delay-1 {
+  animation-delay: -140ms;
+}
+.animation-delay-2 {
+  animation-delay: -2450ms;
+}
+.animation-delay-3 {
+  animation-delay: -4320ms;
+}
