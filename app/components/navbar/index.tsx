@@ -68,7 +68,7 @@ const Navbar = () => {
                         <span className={`${expandedNav ? 'rotate-45 mt-[11px]' : ''} duration-300 w-full h-[3px] rounded-sm bg-white origin-bottom-right`}></span>
                     </span>
                 </div>
-                <ul className={`${expandedNav ? 'h-screen opacity-100 w-full' : 'h-0 opacity-0'} absolute sm:relative sm:opacity-100 duration-300 ease-in-out sm:max-h-none overflow-hidden flex justify-center sm:justify-end h-full sm:h-auto flex-col sm:items-center gap-12 lg:gap-24 sm:flex-row`}>
+                <ul className={`${expandedNav ? 'h-screen opacity-100 w-full' : 'h-0 opacity-0 pointer-events-none'} absolute sm:relative sm:opacity-100 duration-300 ease-in-out sm:max-h-none overflow-hidden flex justify-center sm:justify-end h-full sm:h-auto flex-col sm:items-center gap-12 lg:gap-24 sm:flex-row`}>
                     <li className={`${navItemStyle} text-6xl`}><Link onClick={closeNav} className="w-full block" href="/projekty">projekty</Link></li>
                     <li className={`${navItemStyle} text-6xl`}><a onClick={closeNav} className="w-full block" href={githubLink} target="_blank" rel="noopener noreferrer">github</a></li>
                     <li className={`${navItemStyle} text-6xl`}><Link onClick={closeNav} className="w-full block" href="/#kontakt">kontakt</Link></li>
