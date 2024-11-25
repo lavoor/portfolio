@@ -6,15 +6,22 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Technology from '@/app/components/technology';
 import FadeIn from '@/app/components/animationfade';
+import path from 'path';
 import { notFound } from 'next/navigation'
 
 async function getProject(slug: string){
-    const projectsFile = await fs.readFile(process.cwd() + '/app/data/projects.json', 'utf8');
-    if (!projectsFile) notFound(); 
-    const projects = JSON.parse(projectsFile);
-    const project = projects.find((p: Project) => p.name === slug);
-    if (!project) notFound(); 
-    return project;
+    const filePath = path.join(process.cwd(), 'app/data/projects.json');
+    try {
+        await fs.access(filePath);
+    
+        const projectsFile = await fs.readFile(filePath, 'utf8');
+        const projects = JSON.parse(projectsFile);
+        const project = projects.find((p: Project) => p.name === slug);
+        if (!project) notFound(); 
+        return project;
+    } catch (err) {
+        notFound();
+    }
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
