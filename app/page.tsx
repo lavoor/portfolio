@@ -18,7 +18,7 @@ import FadeIn from "./components/animationfade";
 const description: string = "Front-end developer, który tworzy intuicyjne i nowoczesne strony internetowe. Na stronie znajdziesz projekty z wykorzystaniem React, Next.js i Vue.js, które łączą estetykę z funkcjonalnością.";
 
 export const metadata: Metadata = {
-  title: "Strona główna",
+  title: "Stanislawsynal - Strona główna",
   description: description,
 };
 
@@ -36,8 +36,8 @@ export default async function Home() {
         <div className="futura flex flex-col w-full sm:w-[456px] md:w-[556px] lg:w-[656px] xl:w-[856px] 2xl:w-[956px] relative">
           <FadeIn>
             <div className="absolute -top-[30%] sm:-top-[15%] right-0">
-              <h1 className="font-bold text-lg sm:text-2xl lg:text-4xl xl:text-5xl 2xl:text-[3.375rem] tracking-tight">
-                stanisław synal
+              <h1 className="font-bold text-lg sm:text-2xl lg:text-4xl xl:text-5xl 2xl:text-[3.375rem] tracking-tight lowercase">
+                Stanisław Synal
               </h1>
               <div className="w-full absolute h-full top-0">
                 <div className="w-[10px] h-[10px] lg:w-5 lg:h-5 absolute left-[20%] animate-starspinaround animation-delay-1">

@@ -8,7 +8,7 @@ import FadeIn from "@/app/components/animationfade";
 const description: string = "Sprawdź wszystkie zrealizowane przezemnie projekty.";
 
 export const metadata: Metadata = {
-    title: "Projekty",
+    title: "Stanislawsynal - Projekty",
     description: description,
 };
 
