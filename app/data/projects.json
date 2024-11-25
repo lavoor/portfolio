@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "pawelthecook",
+        "label": "pawelthecook",
+        "small_description": "Rozbudowana, elegancka strona internetowa z systemem zarządzania treścią, zaprojektowana dla prywatnego kucharza.",
+        "description": "Elegancka strona internetowa dla Pawła, prywatnego kucharza, korzystająca z Next.js, co pozwoliło na uzyskanie wysokiej wydajności i nowoczesnej architektury strony. Samodzielnie zaprojektowałem jej layout, kładąc nacisk na estetykę i intuicyjność obsługi. Strona jest zintegrowana z systemem zarządzania treścią Strapi, umożliwiającym łatwe dodawanie i edytowanie przepisów. Dzięki zastosowaniu Framer Motion zapewniłem płynne animacje i przejścia, podkreślając dynamiczny charakter projektu. Responsywność i optymalny wygląd na różnych urządzeniach gwarantuje Tailwind CSS.",
+        "preview": "https://pawelthecook.pl",
+        "show_preview": true,
+        "technology": ["next", "react", "strapi", "framermotion", "tailwindcss"]
+    },
+    {
+        "id": 2,
+        "name": "stanislawsynal",
+        "label": "stanislawsynal",
+        "small_description": "Strona typu portfolio, zbudowana przy użyciu TypeScript i Next.js, prezentująca różnorodne projekty i umiejętności.",
+        "description": "Stworzyłem swoje portfolio z wykorzystaniem Next.js i TypeScript, co zapewnia wysoką wydajność oraz solidną strukturę kodu. Samodzielnie zaprojektowałem cały interfejs, dbając o estetykę i intuicyjną nawigację. Strona jest w pełni responsywna i dostosowana do różnych rozdzielczości, umożliwiając prezentację moich projektów w atrakcyjny sposób. Dzięki TypeScript aplikacja jest bardziej bezpieczna i łatwa w utrzymaniu, a Next.js pozwala na szybkie renderowanie oraz dynamiczne ładowanie treści. Projekt podkreśla moje umiejętności w zakresie tworzenia nowoczesnych aplikacji front-endowych.",
+        "preview": "https://stanislawsynal.pl",
+        "show_preview": true,
+        "technology": ["next", "react", "typescript", "tailwindcss"]
+    },
+    {
+        "id": 3,
+        "name": "wavescases",
+        "label": "wavescases",
+        "small_description": "WavesCases to interaktywna aplikacja użytkownika (UI), stworzona jako część skryptu do FiveM, umożliwiająca graczom otwieranie lootboxów.",
+        "description": "WavesCases to aplikacja zaprojektowana jako interfejs użytkownika dla skryptu do FiveM, modyfikacji do GTA 5, która umożliwia graczom otwieranie loot boxów. Cały projekt zaprojektowałem samodzielnie, koncentrując się na płynności interakcji i estetyce wizualnej. Do stworzenia UI wykorzystałem Vue.js, co umożliwiło łatwe zarządzanie komponentami oraz dynamiczne ładowanie treści. Aplikacja zawiera atrakcyjne animacje, które wzbogacają doświadczenia związane z otwieraniem skrzynek. WavesCases to doskonałe rozwiązanie dla graczy, którzy chcą uatrakcyjnić swoje doświadczenia w FiveM. UWAGA: Projekt jest przystosowany do modyfikacji FiveM do gry GTA 5, dlatego może nie być typowo responsywny na urządzeniach mobilnych.",
+        "preview": "https://waves-cases.vercel.app/",
+        "show_preview": true,
+        "technology": ["vue"]
+    },
+    {
+        "id": 4,
+        "name": "projektygebala",
+        "label": "projektygebala",
+        "small_description": "Strona internetowa pracowni architektoniczno-konstrukcyjnej, stworzona z użyciem React.js, na której zrealizowałem frontend.",
+        "description": "ProjektyGebała to strona internetowa dla pracowni architektoniczno-konstrukcyjnej, na której zrealizowałem frontend przy użyciu React.js. Aplikacja pozwala użytkownikom przeglądać oferowane projekty oraz składać zamówienia. Strona jest zintegrowana z backendem opartym na Django, co umożliwia zarządzanie treścią. Projekt przedstawia moje umiejętności w zakresie tworzenia aplikacji internetowych w React.js.",
+        "preview": "https://projektygebala.pl",
+        "show_preview": true,
+        "technology": ["react", "django"]
+    },
+    {
+        "id": 5,
+        "name": "aliusrp",
+        "label": "aliusrp",
+        "small_description": "Strona internetowa serwera roleplay FiveM, stworzona z użyciem React.js, na której zrealizowałem frontend i zaprojektowałem cały interfejs.",
+        "description": "AliusRP to strona internetowa serwera roleplay FiveM, na której zrealizowałem frontend przy użyciu React.js. Cały interfejs zaprojektowałem samodzielnie, koncentrując się na estetyce i użyteczności. Strona oferuje informacje o serwerze, jego funkcjach oraz stanowi zachęcenie do rozpoczęcia rozgrywki.",
+        "preview": "https://aliusrp.pl",
+        "show_preview": true,
+        "technology": ["react"]
+    },
+    {
+        "id": 6,
+        "name": "adrenalinarphud",
+        "label": "adrenalinarphud",
+        "small_description": "Interaktywny interfejs dla serwera FiveM, który oferuje zaawansowane funkcje dla graczy.",
+        "description": "HUD AdrenalinaRP to interfejs użytkownika zaprojektowany przeze mnie dla serwera FiveM, który zapewnia graczom szereg funkcji ułatwiających rozgrywkę. Interfejs składa się z głównego HUDu oraz CarHUDU dla pojazdów, a także umożliwia wyświetlanie dokumentów, powiadomień, progress baru oraz ustawień, które są zapisywane w local storage. Dzięki tym funkcjom, gracze mogą łatwo monitorować swoje statystyki i dostosowywać wygląd interfejsu według własnych preferencji. UWAGA: Projekt jest przystosowany do modyfikacji FiveM do gry GTA 5, dlatego może nie być typowo responsywny na urządzeniach mobilnych.",
+        "preview": "https://adrenalina-ui-hud.vercel.app/",
+        "show_preview": false,
+        "technology": ["vue"]
+    },
+    {
+        "id": 7,
+        "name": "adrenalinarpcases",
+        "label": "adrenalinarpcases",
+        "small_description": "Skrzynki AdrenalinaRP to interaktywny interfejs do otwierania lootboxów, stworzony dla graczy serwera.",
+        "description": "Skrzynki AdrenalinaRP to interfejs użytkownika, który pozwala graczom na serwerze AdrenalinaRP na otwieranie lootboxów, wprowadzając element losowości do rozgrywki. Użytkownicy mogą zdobywać unikalne przedmioty, co zwiększa ich zaangażowanie oraz emocje w trakcie zabawy. Interfejs został stworzony z myślą o prostocie obsługi i estetyce, co zapewnia płynne korzystanie z systemu lootboxów. UWAGA: Projekt jest przystosowany do modyfikacji FiveM do gry GTA 5, dlatego może nie być typowo responsywny na urządzeniach mobilnych.",
+        "preview": "https://adrenalina-ui-cases.vercel.com",
+        "show_preview": true,
+        "technology": ["vue"]
+    }
+]

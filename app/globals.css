@@ -5,11 +5,17 @@
 @import url('https://fonts.cdnfonts.com/css/futura-pt');
 @import url('https://fonts.cdnfonts.com/css/satoshi');
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background: #161720;
   font-family: "Satoshi", sans-serif;
   color: #fff;
   overflow-x: hidden;
+  position: relative;
 }
 
 .futura{
@@ -28,3 +34,6 @@ body {
 .animation-delay-3 {
   animation-delay: -4320ms;
 }
+/* #nprogress .bar {
+  background: linear-gradient(272deg, #FF64A2 0%, #8645F8 100%) !important;
+} */

@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         purple: "#9E6AF9",
         blue: "#6DB0FF",
-        yellow: "FCD165",
+        yellow: "#FCD165",
+        gold: "#FBC63E"
       },
       container: {
         padding: '2rem',

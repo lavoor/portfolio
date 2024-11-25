@@ -1,0 +1,21 @@
+{
+  "name": "stanislawsynal",
+  "short_name": "stanislawsynal",
+  "icons": [
+    {
+      "src": "/images/icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#FF64A2",
+  "background_color": "#161720",
+  "display": "standalone"
+}

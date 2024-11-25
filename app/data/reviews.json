@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Kacper",
+        "job": "Właściciel serwisu AdrenalinaRP",
+        "image": "kacper.jpg",
+        "description": "Pan Stanisław wykonał świetną pracę, projektując i tworząc całe UI dla mojego serwera. Interfejs wyróżnia się estetyką, intuicyjnością i dopracowaniem detali. Wszystko zostało idealnie dopasowane do potrzeb serwera, co znacznie podniosło jego jakość i komfort użytkowania. Profesjonalne podejście i kreatywność zdecydowanie zasługują na uznanie."
+    },
+    {
+        "id": 2,
+        "name": "Pawelthecook",
+        "job": "Prywatny kucharz",
+        "image": "pawel.jpg",
+        "description": "Miałem przyjemność współpracować z Panem Stanisławem Synalem, który stworzył dla mnie stronę internetową będącą doskonałym odzwierciedleniem mojej wizji i potrzeb jako prywatnego kucharza. Strona nie tylko wygląda świetnie, ale jest również niezwykle funkcjonalna, intuicyjna i dopracowana w najdrobniejszych szczegółach. Każda moja sugestia była uwzględniona, a tam, gdzie brakowało mi pomysłu, Pan Stanisław zawsze służył cennymi wskazówkami i kreatywnymi rozwiązaniami. Efekt końcowy przeszedł moje oczekiwania, a pierwsze reakcje moich klientów i odwiedzających stronę potwierdzają jej wysoką jakość. Polecam z całego serca każdemu, kto szuka profesjonalisty z pasją i talentem do tworzenia stron internetowych. Dziękuję za współpracę i z pewnością wrócę przy kolejnych projektach!"
+    },
+    {
+        "id": 4,
+        "name": "Projektygebala",
+        "job": "Pracownia architektoniczna",
+        "image": "gebala.jpg",
+        "description": "Polecam pana Stanisława, który wykonał stronę internetową dla mojej pracowni architektonicznej. Strona jest responsywna i działa płynnie. Pan Stanisław profesjonalnie podszedł do zadania i dostarczył produkt zgodny z moimi oczekiwaniami."
+    },
+    {
+        "id": 5,
+        "name": "Mateusz O.",
+        "job": "Właściciel serwisu AliusRP",
+        "image": "alius.jpg",
+        "description": "Cenię Pana Stanisława za jego profesjonalizm i szybkie tempo pracy. Tworzone przez niego prace są wydajne, stabilne i idealnie dostosowane do potrzeb serwera. Zawsze służy wsparciem i potrafi wprowadzać kreatywne rozwiązania do projektów."
+    },
+    {
+        "id": 3,
+        "name": "Skaza",
+        "job": "Youtuber",
+        "image": "skaza.jpg",
+        "description": "Projekt został wykonany starannie, zgodnie z naszymi ustaleniami i spełnił moje oczekiwania. Spodobało mi się jego profesjonalne podejście oraz elastyczność. Współpraca przebiegła bezproblemowo i bez zbędnych komplikacji."
+    },
+    {
+        "id": 6,
+        "name": "PK",
+        "job": "Właściciel serwisu NotRP",
+        "image": "pk.jpg",
+        "description": "Współpraca była niezwykle owocna, dzięki profesjonalizmowi i zaangażowaniu projekt nabrał nowej dynamiki. Jego umiejętności i pomysły znacząco wpłynęły na jakość końcowego produktu. Jestem bardzo zadowolony z efektów."
+    }
+]
