@@ -10,9 +10,9 @@ import { notFound } from 'next/navigation'
 
 async function getProject(slug: string){
     const projectsFile = await fs.readFile(process.cwd() + '/app/data/projects.json', 'utf8');
+    if (!projectsFile) notFound();
     const projects = JSON.parse(projectsFile);
     const project = projects.find((p: Project) => p.name === slug);
-    if (!project) notFound();
     return project;
 }
 
