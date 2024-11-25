@@ -20,6 +20,7 @@ async function getProject(slug: string){
         if (!project) notFound(); 
         return project;
     } catch (err) {
+        console.log(err);
         notFound();
     }
 }
