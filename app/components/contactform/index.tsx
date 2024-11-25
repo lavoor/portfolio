@@ -10,7 +10,6 @@ const Contactform = () => {
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
     const [message, setMessage] = useState("");
-    const [sendingMessage, setSendingMessage] = useState(false);
     const [buttonText, setButtonText] = useState("Wyślij wiadomość");
     const [captchaValid, setCaptchaValid] = useState(false);
     const [captchaToken, setCaptchaToken] = useState<string | null>(null);
@@ -42,7 +41,6 @@ const Contactform = () => {
             setButtonText("Potwierdź, że nie jesteś robotem");
             return;
         }
-        setSendingMessage(true)
         setButtonText("Wysyłanie wiadomości...");
 
         const templateParams = {
@@ -66,12 +64,10 @@ const Contactform = () => {
             setEmail("");
             setPhone("");
             setMessage("");
-            setSendingMessage(false)
             setCaptchaToken(null)
         }, (error) => {
             console.log('Błąd przy wysyłaniu emaila:', error);
             setButtonText("Wystąpił błąd.");
-            setSendingMessage(false)
         });
     }
 

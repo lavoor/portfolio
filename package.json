@@ -12,6 +12,7 @@
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@tabler/icons-react": "^3.19.0",
+    "@types/react-google-recaptcha": "^2.1.9",
     "emailjs-com": "^3.2.0",
     "motion": "^11.11.17",
     "next": "14.2.15",

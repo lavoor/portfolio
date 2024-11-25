@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const Footer = () => {
     return(
         <div className="w-full bg-blue flex flex-col justify-center items-center px-4 box-border mt-56 h-24">

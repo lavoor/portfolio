@@ -81,7 +81,7 @@ const Scroller = ({reviews}: Reviews) => {
                     transitionProperty: `transform, opacity`
                 }}
             >
-                <p className="text-black text-opacity-70 font-medium md:text-sm lg:text-base leading-5">"{description}"</p>
+                <p className="text-black text-opacity-70 font-medium md:text-sm lg:text-base leading-5">&ldquo;{description}&rdquo;</p>
             </div>
         </div>
     )

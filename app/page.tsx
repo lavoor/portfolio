@@ -122,7 +122,7 @@ export default async function Home() {
                     <span className="font-medium text-base tracking-tight text-white text-opacity-50 -mt-1">{review.job}</span>
                 </div>
               </div>
-              <p className="text-white text-opacity-50 font-medium text-base leading-5">"{review.description}"</p>
+              <p className="text-white text-opacity-50 font-medium text-base leading-5">&ldquo;{review.description}&rdquo;</p>
             </div>
           </FadeIn>
         ))}
