@@ -37,3 +37,24 @@ body {
 /* #nprogress .bar {
   background: linear-gradient(272deg, #FF64A2 0%, #8645F8 100%) !important;
 } */
+
+.g{
+  position: absolute;
+  mix-blend-mode: hard-light;
+  filter: blur(70px);
+  transform: translate3d(0, 0, 0);
+  opacity: 0.2;
+  border-radius: 600px;
+}
+.g1{
+  background: radial-gradient(circle at center, rgba(168, 39, 255, 0.8) 0, rgba(168, 39, 255, 0) 100%) no-repeat;
+}
+.g2{
+  background: radial-gradient(circle at center, rgba(109, 176, 255, 0.8) 0, rgba(109, 176, 255, 0) 100%) no-repeat;
+}
+.g3{
+  background: radial-gradient(circle at center, rgba(255, 183, 0, 0.8) 0, rgba(255, 183, 0, 0) 100%) no-repeat;
+}
+.g4{
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0) 100%) no-repeat;
+}
