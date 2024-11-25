@@ -79,13 +79,13 @@ const Project = async ({params}: {params: {slug: string}}) => {
                         <p className="text-white text-center text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Poznaj jakie technologie zostały użyte podczas tworzenia tego projektu</p>
                     </FadeIn>
                 </div>
-                <FadeIn>
-                    <div className="w-full flex gap-4 md:gap-16 md:gap-y-8 flex-col md:flex-row md:flex-wrap justify-center">
+                <div className="w-full flex gap-4 md:gap-16 md:gap-y-8 flex-col md:flex-row md:flex-wrap justify-center">
                         {project.technology.map((technology: string, n: number) => (
-                            <Technology key={n} technology={technology}></Technology>
+                            <FadeIn key={n}>
+                                <Technology technology={technology}></Technology>
+                            </FadeIn>
                         ))}
-                    </div>
-                </FadeIn>
+                </div>
             </section>
             <section className="container mx-auto flex flex-col gap-10 mt-24">
                 <div className="flex flex-col">

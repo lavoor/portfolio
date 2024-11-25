@@ -6,7 +6,7 @@ export default function FadeIn({children, delay} : {children: React.ReactNode, d
     const revealVariants = {
         initial: {
             opacity: 0,
-            y: 60,
+            y: 20,
         },
         animate: {
             opacity: 1,
@@ -14,8 +14,7 @@ export default function FadeIn({children, delay} : {children: React.ReactNode, d
             transition: {
                 delay: delay ? delay : 0.3,
                 type: 'spring',
-                stiffness: 50,
-                damping: 8,
+                stiffness: 100,
             }
         }
     }
