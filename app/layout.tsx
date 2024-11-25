@@ -5,6 +5,9 @@ import "./globals.css";
 import Footer from "./components/footer";
 import NextTopLoader from 'nextjs-toploader';
 
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const description: string = "Front-end developer, który tworzy intuicyjne i nowoczesne strony internetowe. Na stronie znajdziesz projekty z wykorzystaniem React, Next.js i Vue.js, które łączą estetykę z funkcjonalnością.";
 
 export const metadata: Metadata = {
@@ -69,6 +72,8 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer/>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
