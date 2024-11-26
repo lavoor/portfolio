@@ -65,7 +65,7 @@
         "label": "adrenalinarpcases",
         "small_description": "Skrzynki AdrenalinaRP to interaktywny interfejs do otwierania lootboxów, stworzony dla graczy serwera.",
         "description": "Skrzynki AdrenalinaRP to interfejs użytkownika, który pozwala graczom na serwerze AdrenalinaRP na otwieranie lootboxów, wprowadzając element losowości do rozgrywki. Użytkownicy mogą zdobywać unikalne przedmioty, co zwiększa ich zaangażowanie oraz emocje w trakcie zabawy. Interfejs został stworzony z myślą o prostocie obsługi i estetyce, co zapewnia płynne korzystanie z systemu lootboxów. UWAGA: Projekt jest przystosowany do modyfikacji FiveM do gry GTA 5, dlatego może nie być typowo responsywny na urządzeniach mobilnych.",
-        "preview": "https://adrenalina-ui-cases.vercel.com",
+        "preview": "https://adrenalina-ui-cases.vercel.app/",
         "show_preview": true,
         "technology": ["vue"]
     }
