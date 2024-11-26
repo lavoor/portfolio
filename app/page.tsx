@@ -163,7 +163,7 @@ export default async function Home() {
           }
         </div>
         <Link className="w-full md:w-max" href="/projekty">
-          <Button text="Zobacz wszystkie wykonane projekty" borderColor="border-purple" bgColor="bg-purple" />
+          <Button text="Zobacz resztę wykonanych projektów" borderColor="border-purple" bgColor="bg-purple" />
         </Link>
       </section>
       <section className="container mx-auto mt-24 flex flex-col gap-16">
