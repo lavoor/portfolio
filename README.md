@@ -1,7 +1,7 @@
 # Next.js portfolio website that shows my projects.
+Using Next.js, TypeScript, TailwindCSS and Motion.
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
