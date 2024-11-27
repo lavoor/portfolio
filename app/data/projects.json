@@ -35,7 +35,7 @@
         "label": "projektygebala",
         "small_description": "Strona internetowa pracowni architektoniczno-konstrukcyjnej, stworzona z użyciem React.js, na której zrealizowałem frontend.",
         "description": "ProjektyGebała to strona internetowa dla pracowni architektoniczno-konstrukcyjnej, na której zrealizowałem frontend przy użyciu React.js. Aplikacja pozwala użytkownikom przeglądać oferowane projekty oraz składać zamówienia. Strona jest zintegrowana z backendem opartym na Django, co umożliwia zarządzanie treścią. Projekt przedstawia moje umiejętności w zakresie tworzenia aplikacji internetowych w React.js.",
-        "preview": "https://projektygebala.pl",
+        "preview": "https://projektygebala.com",
         "show_preview": true,
         "technology": ["react", "django"]
     },
