@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     const project = await getProject(params.slug)
     
     return {
-        title: `Stanislawsynal - ${project.label}`,
+        title: `Stanisław Synal - ${project.label}`,
         description: project.small_description,
     };
 }

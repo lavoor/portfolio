@@ -11,11 +11,11 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 const description: string = "Front-end developer, który tworzy intuicyjne i nowoczesne strony internetowe. Na stronie znajdziesz projekty z wykorzystaniem React, Next.js i Vue.js, które łączą estetykę z funkcjonalnością.";
 
 export const metadata: Metadata = {
-  title: "stanislawsynal.pl",
+  title: "Stanisław Synal - Front-end Developer",
   description: description,
   metadataBase: new URL('https://stanislawsynal.pl'),
   creator: "Stanisław Synal",
-  keywords: ['front-end', 'developer', 'programista', 'stanisław', 'synal', 'Next.js', 'strona', 'internetowa'],
+  keywords: ['front-end', 'developer', 'programista', 'stanisław', 'synal', 'react', 'strona', 'internetowa', 'portfolio', 'next.js'],
   robots: {
     index: true,
     follow: true,

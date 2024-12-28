@@ -18,7 +18,7 @@ import FadeIn from "./components/animationfade";
 const description: string = "Front-end developer, który tworzy intuicyjne i nowoczesne strony internetowe. Na stronie znajdziesz projekty z wykorzystaniem React, Next.js i Vue.js, które łączą estetykę z funkcjonalnością.";
 
 export const metadata: Metadata = {
-  title: "Stanislawsynal - Strona główna",
+  title: "Stanisław Synal - Strona główna",
   description: description,
 };
 
@@ -60,7 +60,7 @@ export default async function Home() {
             <Hometextsvg width={"100%"}/>
           </FadeIn>
           <FadeIn delay={0.5}>
-            <p className="satoshi absolute -bottom-32 sm:-bottom-20 text-white text-opacity-50 sm:max-w-[90%] md:max-w-[75%] text-base lg:text-md xl:text-lg 2xl:text-xl font-medium tracking-tight">Z pasją tworzę nowoczesne i responsywne aplikacje internetowe, które są nie tylko estetyczne, ale także wydajne - tak, by Twój projekt wyróżniał się w sieci.</p>
+            <p className="satoshi absolute -bottom-32 sm:-bottom-20 text-white text-opacity-50 sm:max-w-[90%] md:max-w-[75%] text-base lg:text-md xl:text-lg 2xl:text-xl font-medium tracking-tight">Programista Front-end, który tworzy nowoczesne i responsywne aplikacje internetowe, dbający nie tylko o estetykę, ale także o wydajność - tak, by Twój projekt wyróżniał się w sieci.</p>
           </FadeIn>
         </div>
         <a className="absolute left-0 bottom-[6%] px-8 font-medium text-lg md:text-2xl text-white opacity-70 duration-100 hover:opacity-100 flex items-center gap-1" href="#about">
@@ -129,10 +129,10 @@ export default async function Home() {
         </div>
       </section>
       <section className="container mx-auto mt-24 flex flex-col items-end gap-14">
-        <div className="flex flex-col items-end">
+        <div className="flex flex-col">
           <FadeIn>
             <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Ostatnie realizacje</h2>
-            <p className="text-white text-right text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Zobacz na własne oczy zrealizowane przeze mnie projekty.</p>
+            <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Zobacz na własne oczy zrealizowane przeze mnie projekty.</p>
           </FadeIn>
         </div>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-20">
@@ -186,9 +186,9 @@ export default async function Home() {
         </div>
       </section>
       <section id="kontakt" className="container mx-auto mt-24 flex flex-col gap-16 scroll-mt-24">
-        <div className="flex flex-col items-end">
+        <div className="flex flex-col">
           <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Kontakt</h2>
-          <p className="text-white text-right text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Masz pytania lub chcesz porozmawiać o projekcie?<br/> Skontaktuj się ze mną, a chętnie omówię szczegóły i odpowiem na Twoje pytania.</p>
+          <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Masz pytania lub chcesz porozmawiać o projekcie?<br/> Skontaktuj się ze mną, a chętnie omówię szczegóły i odpowiem na Twoje pytania.</p>
         </div>
         <Contactform/>
       </section>
