@@ -128,7 +128,7 @@ export default async function Home() {
         ))}
         </div>
       </section>
-      <section className="container mx-auto mt-24 flex flex-col items-end gap-14">
+      <section className="container mx-auto mt-24 flex flex-col gap-14">
         <div className="flex flex-col">
           <FadeIn>
             <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Ostatnie realizacje</h2>
