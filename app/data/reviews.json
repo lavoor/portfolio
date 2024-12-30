@@ -14,6 +14,13 @@
         "description": "Miałem przyjemność współpracować z Panem Stanisławem Synalem, który stworzył dla mnie stronę internetową będącą doskonałym odzwierciedleniem mojej wizji i potrzeb jako prywatnego kucharza. Strona nie tylko wygląda świetnie, ale jest również niezwykle funkcjonalna, intuicyjna i dopracowana w najdrobniejszych szczegółach. Każda moja sugestia była uwzględniona, a tam, gdzie brakowało mi pomysłu, Pan Stanisław zawsze służył cennymi wskazówkami i kreatywnymi rozwiązaniami. Efekt końcowy przeszedł moje oczekiwania, a pierwsze reakcje moich klientów i odwiedzających stronę potwierdzają jej wysoką jakość. Polecam z całego serca każdemu, kto szuka profesjonalisty z pasją i talentem do tworzenia stron internetowych. Dziękuję za współpracę i z pewnością wrócę przy kolejnych projektach!"
     },
     {
+        "id": 3,
+        "name": "Łukasz W.",
+        "job": "FiveCity Founder",
+        "image": "lukaszw.jpg",
+        "description": "Polecam Stanisława Synala jako front-end developera. Współpracujemy od 2021 roku przy serwerze FiveCity, i przez ten czas udowodnił, że jest solidnym, zaangażowanym i rzetelnym profesjonalistą. Realizowane przez niego projekty zawsze były wykonane szybko, dokładnie i z dbałością o najmniejsze detale. Cenię również jego podejście do rozwoju – nieustannie poszerza swoją wiedzę i śledzi najnowsze trendy, co przekłada się na wysoką jakość jego pracy."
+    },
+    {
         "id": 4,
         "name": "Projektygebala",
         "job": "Pracownia architektoniczna",
@@ -23,21 +30,21 @@
     {
         "id": 5,
         "name": "Mateusz O.",
-        "job": "Właściciel serwisu AliusRP",
+        "job": "Właściciel AliusRP",
         "image": "alius.jpg",
         "description": "Cenię Pana Stanisława za jego profesjonalizm i szybkie tempo pracy. Tworzone przez niego prace są wydajne, stabilne i idealnie dostosowane do potrzeb serwera. Zawsze służy wsparciem i potrafi wprowadzać kreatywne rozwiązania do projektów."
     },
     {
-        "id": 3,
+        "id": 6,
         "name": "Skaza",
         "job": "Youtuber",
         "image": "skaza.jpg",
         "description": "Projekt został wykonany starannie, zgodnie z naszymi ustaleniami i spełnił moje oczekiwania. Spodobało mi się jego profesjonalne podejście oraz elastyczność. Współpraca przebiegła bezproblemowo i bez zbędnych komplikacji."
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "PK",
-        "job": "Właściciel serwisu NotRP",
+        "job": "Właściciel NotRP",
         "image": "pk.jpg",
         "description": "Współpraca była niezwykle owocna, dzięki profesjonalizmowi i zaangażowaniu projekt nabrał nowej dynamiki. Jego umiejętności i pomysły znacząco wpłynęły na jakość końcowego produktu. Jestem bardzo zadowolony z efektów."
     }
