@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     follow: true,
     nocache: true,
     googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
+        index: true,
+        follow: true,
+        noimageindex: false,
     },
   },
   openGraph: {
