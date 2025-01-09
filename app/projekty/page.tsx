@@ -8,13 +8,24 @@ import FadeIn from "@/app/components/animationfade";
 const description: string = "Sprawdź wszystkie zrealizowane przezemnie projekty.";
 
 export const metadata: Metadata = {
-    title: "Stanisław Synal - Portfolio / Projekty",
+    title: "Portfolio - projekty",
     description: description,
+    keywords: ['fivem', 'front end projekty', 'portfolio', 'strona internetowa'],
+    robots: {
+        index: true,
+        follow: true,
+        nocache: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: false,
+        },
+    },
 };
 
 const Projekty = async () => {
     const projectsFile = await fs.readFile(process.cwd() + '/app/data/projects.json', 'utf8');
-    const projects = JSON.parse(projectsFile);
+    const projects = JSON.parse(projectsFile).reverse();
     return (
         <div>
             <section className="container mx-auto pt-48 flex flex-col gap-14">

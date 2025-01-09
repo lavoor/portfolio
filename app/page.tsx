@@ -28,7 +28,7 @@ export default async function Home() {
   const projectsFile = await fs.readFile(process.cwd() + '/app/data/projects.json', 'utf8');
 
   const reviews = JSON.parse(reviewsFile);
-  const projects = JSON.parse(projectsFile);
+  const projects = JSON.parse(projectsFile).reverse();
 
   return (
     <div>
