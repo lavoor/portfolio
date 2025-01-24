@@ -7,7 +7,7 @@
         "description": "Skrzynki AdrenalinaRP to interfejs użytkownika, który pozwala graczom na serwerze AdrenalinaRP na otwieranie lootboxów, wprowadzając element losowości do rozgrywki. Użytkownicy mogą zdobywać unikalne przedmioty, co zwiększa ich zaangażowanie oraz emocje w trakcie zabawy. Interfejs został stworzony z myślą o prostocie obsługi i estetyce, co zapewnia płynne korzystanie z systemu lootboxów. UWAGA: Projekt jest przystosowany do modyfikacji FiveM do gry GTA 5, dlatego może nie być typowo responsywny na urządzeniach mobilnych.",
         "preview": "https://adrenalina-ui-cases.vercel.app/",
         "show_preview": true,
-        "technology": ["vue"],
+        "technology": ["vuejs"],
         "keywords": ["interfejs użytkownika", "lootboxy", "serwer fivem", "otwieranie skrzynek"]
     },
     {
@@ -18,7 +18,7 @@
         "description": "HUD AdrenalinaRP to interfejs użytkownika zaprojektowany przeze mnie dla serwera FiveM, który zapewnia graczom szereg funkcji ułatwiających rozgrywkę. Interfejs składa się z głównego HUDu oraz CarHUDU dla pojazdów, a także umożliwia wyświetlanie dokumentów, powiadomień, progress baru oraz ustawień, które są zapisywane w local storage. Dzięki tym funkcjom, gracze mogą łatwo monitorować swoje statystyki i dostosowywać wygląd interfejsu według własnych preferencji. UWAGA: Projekt jest przystosowany do modyfikacji FiveM do gry GTA 5, dlatego może nie być typowo responsywny na urządzeniach mobilnych.",
         "preview": "https://adrenalina-ui-hud.vercel.app/",
         "show_preview": false,
-        "technology": ["vue"],
+        "technology": ["vuejs"],
         "keywords": ["hud fivem", "interfejs użytkownika", "funkcje rozgrywki", "local storage"]
     },
     {
@@ -29,7 +29,7 @@
         "description": "AliusRP to strona internetowa serwera roleplay FiveM, na której zrealizowałem frontend przy użyciu React.js. Cały interfejs zaprojektowałem samodzielnie, koncentrując się na estetyce i użyteczności. Strona oferuje informacje o serwerze, jego funkcjach oraz stanowi zachęcenie do rozpoczęcia rozgrywki.",
         "preview": "https://aliusrp.pl",
         "show_preview": true,
-        "technology": ["react"],
+        "technology": ["reactjs"],
         "keywords": ["strona roleplay", "serwer fivem", "interfejs reactjs"]
     },
     {
@@ -40,7 +40,7 @@
         "description": "ProjektyGebała to strona internetowa dla pracowni architektoniczno-konstrukcyjnej, na której zrealizowałem frontend przy użyciu React.js. Aplikacja pozwala użytkownikom przeglądać oferowane projekty oraz składać zamówienia. Strona jest zintegrowana z backendem opartym na Django, co umożliwia zarządzanie treścią. Projekt przedstawia moje umiejętności w zakresie tworzenia aplikacji internetowych w React.js.",
         "preview": "https://projektygebala.com",
         "show_preview": true,
-        "technology": ["react", "django"],
+        "technology": ["reactjs", "django"],
         "keywords": ["architektura online", "zamówienia projektów", "frontend React.js", "integracja django"]
     },
     {
@@ -51,7 +51,7 @@
         "description": "WavesCases to aplikacja zaprojektowana jako interfejs użytkownika dla skryptu do FiveM, modyfikacji do GTA 5, która umożliwia graczom otwieranie loot boxów. Cały projekt zaprojektowałem samodzielnie, koncentrując się na płynności interakcji i estetyce wizualnej. Do stworzenia UI wykorzystałem Vue.js, co umożliwiło łatwe zarządzanie komponentami oraz dynamiczne ładowanie treści. Aplikacja zawiera atrakcyjne animacje, które wzbogacają doświadczenia związane z otwieraniem skrzynek. WavesCases to doskonałe rozwiązanie dla graczy, którzy chcą uatrakcyjnić swoje doświadczenia w FiveM. UWAGA: Projekt jest przystosowany do modyfikacji FiveM do gry GTA 5, dlatego może nie być typowo responsywny na urządzeniach mobilnych.",
         "preview": "https://waves-cases.vercel.app/",
         "show_preview": true,
-        "technology": ["vue"],
+        "technology": ["vuejs"],
         "keywords": ["otwieranie lootboxów", "skrypt FiveM", "ui vue.js", "interaktywne animacje"]
     },
     {
@@ -62,7 +62,7 @@
         "description": "StanislawSynal.pl to portfolio prezentujące projekty i umiejętności w nowoczesny i przemyślany sposób. Strona wykorzystuje technologie Next.js i TypeScript, zapewniając szybkie ładowanie oraz stabilność działania. Charakteryzuje się minimalistycznym designem, intuicyjną nawigacją oraz pełną responsywnością, co sprawia, że treści są czytelne i estetyczne na każdym urządzeniu. Dzięki Tailwind CSS oraz dynamicznemu ładowaniu treści portfolio wyróżnia się nowoczesnym wyglądem i płynnością działania.",
         "preview": "https://stanislawsynal.pl",
         "show_preview": true,
-        "technology": ["next", "react", "typescript", "tailwindcss"],
+        "technology": ["nextjs", "typescript", "tailwindcss"],
         "keywords": ["portfolio online", "minimalistyczny design", "next.js typeScript", "responsywne rozwiązania"]
     },
     {
@@ -73,7 +73,7 @@
         "description": "Elegancka strona internetowa dla Pawła, prywatnego kucharza, korzystająca z Next.js, co pozwoliło na uzyskanie wysokiej wydajności i nowoczesnej architektury strony. Samodzielnie zaprojektowałem jej layout, kładąc nacisk na estetykę i intuicyjność obsługi. Strona jest zintegrowana z systemem zarządzania treścią Strapi, umożliwiającym łatwe dodawanie i edytowanie przepisów. Dzięki zastosowaniu Framer Motion zapewniłem płynne animacje i przejścia, podkreślając dynamiczny charakter projektu. Responsywność i optymalny wygląd na różnych urządzeniach gwarantuje Tailwind CSS.",
         "preview": "https://pawelthecook.pl",
         "show_preview": true,
-        "technology": ["next", "react", "strapi", "framermotion", "tailwindcss"],
+        "technology": ["nextjs", "strapi", "framermotion", "tailwindcss"],
         "keywords": ["strona kucharza", "zarządzanie przepisami", "system Strapi", "animacje Framer Motion"]
     },
     {
@@ -84,7 +84,18 @@
         "description": "DrewnianePaliki.pl to strona internetowa prezentująca ofertę producenta palików drewnianych, skierowaną do klientów z różnych sektorów, takich jak budownictwo, ogrodnictwo czy rolnictwo. Strona została zaprojektowana z myślą o przejrzystości i łatwości nawigacji, umożliwiając użytkownikom szybkie znalezienie interesujących ich produktów oraz usług. Wykorzystanie technologii takich jak Next.js, React, TypeScript i Tailwind CSS zapewnia nowoczesny wygląd, responsywność oraz wysoką wydajność witryny.",
         "preview": "https://drewnianepaliki.pl",
         "show_preview": true,
-        "technology": ["next", "react", "typescript", "tailwindcss"],
+        "technology": ["nextjs", "typescript", "tailwindcss"],
         "keywords": ["paliki drewniane", "produkty drewniane", "strona producenta", "sektor budownictwa"]
+    },
+    {
+        "id": 9,
+        "name": "panstwamiasta",
+        "label": "panstwamiasta.online",
+        "small_description": "Nowoczesna wersja gry „Państwa, Miasta” online z trybem multiplayer, systemem punktacji i możliwością personalizacji rozgrywki. Projekt stworzony z myślą o intuicyjności i atrakcyjnym interfejsie.",
+        "description": "Nowoczesna wersja klasycznej gry „Państwa, Miasta” w formie gry online, umożliwiająca rozgrywkę zarówno dla pojedynczych graczy, jak i w trybie multiplayer. Projekt obejmował pełny proces tworzenia aplikacji, od projektowania interfejsu użytkownika po implementację logiki gry .",
+        "preview": "https://panstwamiasta.online",
+        "show_preview": true,
+        "technology": ["nextjs", "typescript", "tailwindcss", "nodejs", "framermotion"],
+        "keywords": ["państwa miasta gra", "państwa miasta online", "państwa miasta kategorie", "państwa miasta słownik"]
     }
 ]

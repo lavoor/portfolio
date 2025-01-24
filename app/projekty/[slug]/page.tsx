@@ -63,7 +63,7 @@ const Project = async ({params}: {params: {slug: string}}) => {
                 <div className="flex flex-col">
                     <FadeIn>
                         <h1 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">{project.label}</h1>
-                        <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">{project.small_description}</p>
+                        <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">{project.small_description}</p>
                     </FadeIn>
                 </div>
                 <FadeIn>
@@ -79,7 +79,7 @@ const Project = async ({params}: {params: {slug: string}}) => {
                 <div className="flex flex-col">
                     <FadeIn>
                         <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Opis projektu</h2>
-                        <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">{project.description}</p>
+                        <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">{project.description}</p>
                     </FadeIn>
                 </div>
             </section>
@@ -102,7 +102,7 @@ const Project = async ({params}: {params: {slug: string}}) => {
                 <div className="flex flex-col">
                     <FadeIn>
                         <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Podgląd projektu</h2>
-                        <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Przejrzyj podgląd projektu lub sprawdź samemu</p>
+                        <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Przejrzyj podgląd projektu lub sprawdź samemu</p>
                     </FadeIn>
                     {project.show_preview ? (
                         <FadeIn>
@@ -132,7 +132,7 @@ const Project = async ({params}: {params: {slug: string}}) => {
                 <FadeIn>
                     <div className="flex flex-col items-center">
                         <h2 className="font-black text-center text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Spodobał ci się projekt?</h2>
-                        <p className="text-white text-center text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Chcesz aby twój projekt prezentował się równie dobrze albo nawet jeszcze lepiej?</p>
+                        <p className="text-white md:mt-1 text-center text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Chcesz aby twój projekt prezentował się równie dobrze albo nawet jeszcze lepiej?</p>
                     </div>
                 </FadeIn>
                 <FadeIn>

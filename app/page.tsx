@@ -74,7 +74,7 @@ export default async function Home() {
         <div className="flex flex-col w-full">
           <FadeIn>
             <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">O mnie</h2>
-            <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Front-end developer, który uwielbia tworzyć nowoczesne i intuicyjne strony internetowe. Poza programowaniem, projektuję UI/UX, dbając o to, by interfejsy były estetyczne i funkcjonalne. Pracuję głównie z React i Next.js, a każdy projekt traktuję jako okazję do doskonalenia swoich umiejętności i dostarczania jak najlepszych rozwiązań.</p>
+            <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Front-end developer, który uwielbia tworzyć nowoczesne i intuicyjne strony internetowe. Poza programowaniem, projektuję UI/UX, dbając o to, by interfejsy były estetyczne i funkcjonalne. Pracuję głównie z React i Next.js, a każdy projekt traktuję jako okazję do doskonalenia swoich umiejętności i dostarczania jak najlepszych rozwiązań.</p>
           </FadeIn>
         </div>
         <div className="relative min-w-[38%] hidden md:block">
@@ -95,7 +95,7 @@ export default async function Home() {
         <div className="container mx-auto flex justify-center">
           <div className="flex flex-col">
             <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Zadowoleni klienci</h2>
-            <p className="text-white ml-10 sm:ml-16 lg:ml-24 xl:ml-32 2xl:ml-48 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Poznaj osoby które mi zaufały</p>
+            <p className="text-white md:mt-1 ml-10 sm:ml-16 lg:ml-24 xl:ml-32 2xl:ml-48 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Poznaj osoby które mi zaufały</p>
           </div>
         </div>
         <div className="hidden md:block">
@@ -132,7 +132,7 @@ export default async function Home() {
         <div className="flex flex-col">
           <FadeIn>
             <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Ostatnie realizacje</h2>
-            <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Zobacz na własne oczy zrealizowane przeze mnie projekty.</p>
+            <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Zobacz na własne oczy zrealizowane przeze mnie projekty.</p>
           </FadeIn>
         </div>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-20">
@@ -170,7 +170,7 @@ export default async function Home() {
         <div className="flex flex-col">
           <FadeIn>
             <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Proces współpracy ze mną</h2>
-            <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Dowiedz się jak przebiega współpraca od początku do końca.</p>
+            <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Dowiedz się jak przebiega współpraca od początku do końca.</p>
           </FadeIn>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 justify-between gap-8 lg:gap-[4.25rem]">
@@ -188,7 +188,7 @@ export default async function Home() {
       <section id="kontakt" className="container mx-auto mt-24 flex flex-col gap-16 scroll-mt-24">
         <div className="flex flex-col">
           <h2 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Kontakt</h2>
-          <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Masz pytania lub chcesz porozmawiać o projekcie?<br/> Skontaktuj się ze mną, a chętnie omówię szczegóły i odpowiem na Twoje pytania.</p>
+          <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Masz pytania lub chcesz porozmawiać o projekcie?<br/> Skontaktuj się ze mną, a chętnie omówię szczegóły i odpowiem na Twoje pytania.</p>
         </div>
         <Contactform/>
       </section>

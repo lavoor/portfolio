@@ -3,7 +3,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide'
 import Image from "next/image"
 import '@splidejs/react-splide/css';
 import {Reviews, Review} from "@/types"
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const ScrollerItem = ({review}: {review: Review}) => {
     return (
@@ -28,8 +28,11 @@ const ScrollerItem = ({review}: {review: Review}) => {
 
 const Scroller = ({reviews}: Reviews) => {
     const [description, setDescription] = useState("");
-    const [descriptionVisibility, setDescriptionVisibility] = useState(false)
+    const [descriptionVisibility, setDescriptionVisibility] = useState(false);
+    const [descriptionTimeoutVisibility, setDescriptionTimeoutVisiblity] = useState(false);
     const [mouseposition, setMousePosition] = useState({x: 0, y: 0})
+    
+    const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
     useEffect(() => {
         const slides = document.querySelectorAll(".sliderSlide");
@@ -55,9 +58,16 @@ const Scroller = ({reviews}: Reviews) => {
         const newDescription = target.getAttribute("data-description") || "";
         setDescription(newDescription);
         setDescriptionVisibility(true);
+        setDescriptionTimeoutVisiblity(true);
+        if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current);
+        }
     }
     const handleMouseLeave = () => {
         setDescriptionVisibility(false);
+        timeoutRef.current = setTimeout(() => {
+            setDescriptionTimeoutVisiblity(false);
+        }, 300)
     }
     const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
         const rect = e.currentTarget.getBoundingClientRect();
@@ -74,14 +84,25 @@ const Scroller = ({reviews}: Reviews) => {
                     </SplideSlide>
                 ))}
             </Splide>
-            <div
-                className={`absolute pointer-events-none ${descriptionVisibility ? 'opacity-100' : 'opacity-0'} top-0 z-10 duration-300 ease-out left-0 ${description.length > 380 ? 'w-[40rem]' : 'w-96'} h-max md:p-4 lg:p-7 box-border rounded-lg bg-white`}
-                style={{
-                    transform: `translate(${mouseposition.x - 10}px, ${mouseposition.y - 20}px)`,
-                    transitionProperty: `transform, opacity`
-                }}
-            >
-                <p className="text-black text-opacity-70 font-medium md:text-sm lg:text-base leading-5">&ldquo;{description}&rdquo;</p>
+            <div className={`${descriptionVisibility ? 'opacity-100' : 'opacity-0'} duration-300`}>
+                {
+                    descriptionTimeoutVisibility
+                    ?
+                    (
+                        <div
+                            className={`absolute pointer-events-none top-0 z-10 duration-300 ease-out left-0 ${description.length > 380 ? 'w-[40rem]' : 'w-96'} h-max md:p-4 lg:p-7 box-border rounded-lg bg-white`}
+                            style={{
+                                transform: `translate(${mouseposition.x - 10}px, ${mouseposition.y - 20}px)`,
+                                transitionProperty: `transform, opacity`
+                            }}
+                        >
+                            <p className="text-black text-opacity-70 font-medium md:text-sm lg:text-base leading-5">&ldquo;{description}&rdquo;</p>
+                        </div>
+                            
+                    )
+                    :
+                    ""
+                }
             </div>
         </div>
     )

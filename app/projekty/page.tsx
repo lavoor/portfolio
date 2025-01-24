@@ -32,7 +32,7 @@ const Projekty = async () => {
                 <div className="flex flex-col">
                     <FadeIn>
                         <h1 className="font-black text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-tight">Zrealizowane projekty</h1>
-                        <p className="text-white text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Przejrzyj zrealizowane przeze mnie projekty.</p>
+                        <p className="text-white md:mt-1 text-opacity-50 font-medium text-base md:text-md lg:text-lg xl:text-xl 2xl:text-2xl tracking-tight">Przejrzyj zrealizowane przeze mnie projekty.</p>
                     </FadeIn>
                 </div>
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-20">

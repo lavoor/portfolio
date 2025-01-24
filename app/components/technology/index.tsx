@@ -1,7 +1,7 @@
 import { TechnologyType } from "@/types";
 
 const technologies: { [id: string] : TechnologyType; } = {
-    "next": {
+    "nextjs": {
         label: "Next.js",
         icon: `
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 20 20" fill="none">
@@ -10,7 +10,7 @@ const technologies: { [id: string] : TechnologyType; } = {
         `,
         link: "https://nextjs.org/",
     },
-    "vue": {
+    "vuejs": {
         label: "Vue.js",
         icon: `
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 20 18" fill="none">
@@ -46,7 +46,7 @@ const technologies: { [id: string] : TechnologyType; } = {
         `,
         link: "https://tailwindcss.com/",
     },
-    "react": {
+    "reactjs": {
         label: "React.js",
         icon: `
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 23 20" fill="none">
@@ -77,6 +77,15 @@ const technologies: { [id: string] : TechnologyType; } = {
             </svg>
         `,
         link: "https://motion.dev/",
+    },
+    "nodejs": {
+        label: "Node.js",
+        icon: `
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.29581 7.29624V14.5471C7.29575 14.8632 7.21259 15.1737 7.05468 15.4475C6.89676 15.7213 6.66963 15.9488 6.39607 16.1071C6.1225 16.2655 5.81212 16.3491 5.49604 16.3496C5.17996 16.3501 4.8693 16.2676 4.5952 16.1102L3.1818 15.2989C2.78631 15.0573 2.45955 14.7181 2.23288 14.3138C2.00621 13.9096 1.88724 13.4539 1.88739 12.9904V7.0096C1.8874 6.54629 2.00644 6.09076 2.2331 5.68668C2.45976 5.28261 2.78644 4.94354 3.1818 4.70201L8.59022 1.39656C9.01473 1.13722 9.50255 1 10 1C10.4975 1 10.9853 1.13722 11.4098 1.39656L16.8182 4.70201C17.2137 4.94362 17.5405 5.28283 17.7671 5.68708C17.9938 6.09132 18.1128 6.54704 18.1126 7.0105V12.9904C18.1126 13.4537 17.9936 13.9092 17.7669 14.3133C17.5403 14.7174 17.2136 15.0565 16.8182 15.298L11.4098 18.6034C10.9853 18.8628 10.4975 19 10 19C9.50255 19 9.01473 18.8628 8.59022 18.6034M14.507 7.29623H11.3521C10.9935 7.29623 10.6496 7.43868 10.396 7.69225C10.1425 7.94582 10 8.28973 10 8.64833C10 9.00693 10.1425 9.35085 10.396 9.60441C10.6496 9.85798 10.9935 10.0004 11.3521 10.0004H13.1549C13.5135 10.0004 13.8574 10.1429 14.111 10.3965C14.3646 10.65 14.507 10.9939 14.507 11.3525C14.507 11.7111 14.3646 12.0551 14.111 12.3086C13.8574 12.5622 13.5135 12.7046 13.1549 12.7046H10" stroke="white" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        `,
+        link: "https://nodejs.org/en",
     },
 
 }
