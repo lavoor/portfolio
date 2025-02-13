@@ -84,7 +84,7 @@ const Scroller = ({reviews}: Reviews) => {
                     </SplideSlide>
                 ))}
             </Splide>
-            <div className={`${descriptionVisibility ? 'opacity-100' : 'opacity-0'} duration-300`}>
+            <div className={`${descriptionVisibility ? 'opacity-100' : 'opacity-0'} z-10 duration-300`}>
                 {
                     descriptionTimeoutVisibility
                     ?
